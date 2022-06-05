@@ -1,0 +1,16 @@
+{% extends "base.html" %} 
+
+{% block title %}For Loop{% endblock %}
+
+{% block content %}
+
+<h1>This is for loop page coded Maiara 18232</h1><hr />
+
+    {% for fruit in passfruits: %}
+    <p>
+        {% print("I love: " + (fruit) + " and eat everyday.")    %}
+    </p>
+    {% endfor %}
+</body>
+</html>
+{% endblock %}
